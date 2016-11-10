@@ -1,0 +1,17 @@
+.container {
+    max-width: 1000px;
+    margin: auto auto;    /*text-align: center;*/
+}
+.show {
+    margin-top: 30px;
+}
+.inp{
+	margin-bottom: 20px;
+}
+body{
+    font-family: 'Microsoft YaHei', 'SimHei', 'STHeiti', sans-serif;
+    background-color: bisque;
+}
+h1{
+    font-weight: normal;
+}
