@@ -1,0 +1,39 @@
+body{
+	font-family: "微软雅黑",simhei,sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;    /*text-align: center;*/
+}
+h1{
+	font-weight: normal;
+	margin-left: 150px;
+}
+.img{
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.img_list{
+	width: 2500px;
+	font-size: 0;
+	position: absolute;
+}
+.lj{
+	position: absolute;
+	bottom: 4px;
+	left: 50%;
+	margin-left: -45px;
+}
+.lj a{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+.active{
+	background-color: #FFFFFF;
+	cursor: pointer;/*改变光标的形状*/
+}
