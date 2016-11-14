@@ -1,3 +1,17 @@
+/*--------------------------主页------------------------*/
+.index-content{
+    max-width: 600px;
+    border-bottom: 1px dashed #aaa;
+}
+.index-content a{
+    display:block;
+    margin: 10px;
+    text-decoration: none;
+    color: #274E70;
+}
+.index-content a:hover，.other-info a:hover{
+    color: #5D809E;
+}
 .container {
     max-width: 1000px;
     margin: auto auto;    /*text-align: center;*/
@@ -15,3 +29,75 @@ body{
 h1{
     font-weight: normal;
 }
+
+
+/*----------------------轮播图------------------------*/
+*{ 
+	margin: 0; 
+	padding: 0; 
+	text-decoration: none;
+}
+body{
+	 padding: 20px;
+}
+#container{ 
+	width: 500px; 
+	height: 300px; 
+	/*border: 3px solid #333; */
+	overflow: hidden; 
+	position: relative;
+}
+#img_list { 
+	width: 3500px; 
+	height: 300px; 
+	position: absolute; 
+	z-index: 1;
+}
+#img_list img { 
+	float: left;
+}
+#buttons { 
+	position: absolute; 
+	height: 10px; 
+	width: 100px; 
+	z-index: 2; 
+	bottom: 20px; 
+	left: 250px;
+}
+#buttons span { 
+	cursor: pointer; 
+	float: left; 
+	border: 1px solid #fff; 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 50%; 
+	background: #333; 
+	margin-right: 5px;
+}
+#buttons .active {  
+	background: #fff;
+}
+.arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 40px; 
+	height: 40px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 140px; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow { 
+	display: block;
+}
+#prev { left: 20px;}
+#next { right: 20px;}
+
